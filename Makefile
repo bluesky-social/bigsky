@@ -56,3 +56,21 @@ build-bigsky-admin-ui: ## Build relay admin web UI
 	cd  ts; yarn install --frozen-lockfile; yarn build
 	mkdir -p public
 	cp -r ts/dist/* public/
+
+.PHONY: sc-reload
+sc-reload: # Reloads supercollider
+	go run cmd/supercollider/main.go \
+		reload \
+		--port 6125 --total-events 2000000 \
+		--hostname alpha.supercollider.jazco.io \
+		--key-file out/alpha.pem \
+		--output-file out/alpha_in.cbor
+
+.PHONY: sc-fire
+sc-fire: # Fires supercollider
+	go run cmd/supercollider/main.go \
+		fire \
+		--port 6125 --events-per-second 10000 \
+		--hostname alpha.supercollider.jazco.io \
+		--key-file out/alpha.pem \
+		--input-file out/alpha_in.cbor

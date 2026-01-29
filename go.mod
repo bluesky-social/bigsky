@@ -8,11 +8,13 @@ require (
 	github.com/RussellLuo/slidingwindow v0.0.0-20200528002341-535bb99d338b
 	github.com/bluesky-social/indigo v0.0.0-20260128063823-ac5b0fc2bd75
 	github.com/bradfitz/gomemcache v0.0.0-20230905024940-24af94b03874
+	github.com/dustinkirkland/golang-petname v0.0.0-20231002161417-6a283f1aaaf2
 	github.com/earthboundkid/versioninfo/v2 v2.24.1
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/gorilla/websocket v1.5.1
 	github.com/hashicorp/golang-lru/arc/v2 v2.0.6
 	github.com/hashicorp/golang-lru/v2 v2.0.7
+	github.com/icrowley/fake v0.0.0-20221112152111-d7b7e2276db2
 	github.com/ipfs/go-cid v0.4.1
 	github.com/ipfs/go-datastore v0.6.0
 	github.com/ipfs/go-ipfs-blockstore v1.3.1
@@ -20,6 +22,7 @@ require (
 	github.com/ipfs/go-ipld-format v0.6.0
 	github.com/ipld/go-car v0.6.1-0.20230509095817-92d28eb23ba4
 	github.com/joho/godotenv v1.5.1
+	github.com/labstack/echo-contrib v0.15.0
 	github.com/labstack/echo/v4 v4.11.3
 	github.com/lestrrat-go/jwx/v2 v2.0.12
 	github.com/lib/pq v1.10.9
@@ -64,11 +67,11 @@ require (
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/orandin/slog-gorm v1.3.2
 	github.com/polydawn/refmt v0.89.1-0.20221221234430-40501e09de1f // indirect
-	github.com/urfave/cli/v3 v3.4.1 // indirect
+	github.com/urfave/cli/v3 v3.4.1
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.21.0 // indirect
 	go.opentelemetry.io/otel/trace v1.21.0 // indirect
 	go.uber.org/zap v1.26.0
-	golang.org/x/crypto v0.21.0 // indirect
+	golang.org/x/crypto v0.21.0
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gorm.io/driver/postgres v1.5.7
@@ -78,6 +81,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/corpix/uarand v0.2.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.2.0 // indirect

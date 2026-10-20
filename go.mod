@@ -1,8 +1,6 @@
 module github.com/bluesky-social/bigsky
 
-go 1.25
-
-toolchain go1.25.1
+go 1.26.10
 
 require (
 	github.com/RussellLuo/slidingwindow v0.0.0-20200528002341-535bb99d338b
